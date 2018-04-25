@@ -88,10 +88,9 @@ results.innerHTML = objKeys;
 * Uses the Facebook SDK for JavaScript available here:
 * https://developers.facebook.com/docs/javascript/gettingstarted/
 */
-window.fbAsyncInit = 
-					function () {
-					FB.init({
-					appId: appId
+window.fbAsyncInit = function () {
+			FB.init({
+			appId: appId
 });
 	FB.login
 	(function (response) {
